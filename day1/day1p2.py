@@ -1,6 +1,6 @@
 depth_increases = 0
 
-with open("../data/day1.txt") as file:
+with open("day1input.txt") as file:
     lines = [int(line.strip()) for line in file]
     for index, line in enumerate(lines):
         try:
